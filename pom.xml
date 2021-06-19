@@ -16,7 +16,11 @@
 	<properties>
 		<java.version>11</java.version>
 	</properties>
+
+
 	<dependencies>
+
+		<!-- springframework -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
@@ -26,21 +30,26 @@
 			<artifactId>spring-boot-starter-security</artifactId>
 		</dependency>
 
-
-
-		<dependency>
-			<groupId>com.google.guava</groupId>
-			<artifactId>guava</artifactId>
-			<version>28.1-jre</version>
-		</dependency>
-
-
+		<!-- tests -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+
+		<!-- additional -->
+		<dependency>
+			<groupId>com.google.guava</groupId>
+			<artifactId>guava</artifactId>
+			<version>28.1-jre</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-thymeleaf</artifactId>
+		</dependency>
+
 	</dependencies>
+
 
 	<build>
 		<plugins>
